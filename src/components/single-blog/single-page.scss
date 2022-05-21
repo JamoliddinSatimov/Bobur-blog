@@ -1,0 +1,85 @@
+.single{
+    max-width: 734px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    &__left-side{
+        position: absolute;
+        left: -109px;
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        justify-content: space-between;
+    }
+    &__clubs{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    &__share{
+        display: flex;
+        flex-direction: column;
+        align-items:center
+    }
+    &__left-side span{
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+
+    &__right-side h2{
+        color: #777777;       
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 24px;
+    }
+    &__card-body{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color:#474747;
+        margin-bottom: 25px;
+    }
+    &__card-footer{
+        display: flex;
+        margin-bottom: 45px;
+    }
+    &__footer-title{
+        font-size: 12px;
+        line-height: 16px;
+        color: #777777;  
+    }
+    &__footer-icon{
+        display: flex;
+        align-items:center;
+        margin-left: 9px;
+    }
+    &__footer-icon span{
+        font-size: 12px;
+        line-height: 16px;
+        color: #777777;  
+        margin-left: 9px;
+    }
+    &__card p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: #474747;
+        margin-top: 50px;
+    }
+    
+    &__image{
+        width: 100%;
+    }
+
+}
+.single{
+    @media only screen and (max-width: 1000px){
+        &__left-side{
+            display: none
+        }
+    }
+
+}
